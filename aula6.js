@@ -28,7 +28,7 @@ const item_texto = JSON.stringify(item)
 await fs.writeFile("pocao.json", item_texto)
 */
 import fs from 'fs/promises'
-const caminho = 'inventario.json'
+const caminho = 'inventario.json' // JSON-> Javascript Object Notation
 
 async function lerBanco(){
     try{
@@ -64,6 +64,9 @@ async function listarItens(){
         console.log("Inventario vazio")
     }else{
         console.table(inventario)//console.table imprime uma lista como uma tabela
+        for(let i=0; i<inventario.length; i++){
+            console.log(inventario[i])
+        }
     }
 }
 
@@ -72,7 +75,7 @@ async function teste(){
     await adicionarItem("Poção", 5, "Levitação")
     await adicionarItem("Espada", 1, "Aspecto Flamejante")
 
-    console.log("Exibindo 0 Inventário")
+    console.log("Exibindo o Inventário")
 
     await listarItens()
 }
