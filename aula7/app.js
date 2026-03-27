@@ -7,7 +7,7 @@ const server = http.createServer((request,response) =>{
 
     response.writeHead(200) // 200 = deu certo
 
-    response.write("<hi>Olá Munso</h1>")
+    response.write("<hi>Olá Mundo</h1>")
     response.write("<p> Teste servidor node.js</p>")
 
     response.end() //finaliza a resposta(response) e envia como html pro client
