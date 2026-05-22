@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            border: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Bem Vindo ao Sistema</h1>
+    </div>
+    <div class="formulario">
+        <form action="/adicionar" mathod="post">
+            <label> email </label>
+            <input type="text" name="email" required>
+            <br>
+            <label> senha </label>
+            <input type="password" name="senha" required>
+            <br>
+            <label> idade </label>
+            <input type="number" name="idade" required>
+            <button type="submit" > fazer cadastro </button>
+        </form>
+    </div>
+    <h1>Se você veio da página de login, você conseguiu fazer login!</h1>
+</body>
+</html>
