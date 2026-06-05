@@ -11,8 +11,8 @@ export const gerarCadastro = async (request, response) => {
 export const processarCadastro = async (request, response) => {
     let corpoReq = '';
     request.on('data', (chunk) => { corpoReq += chunk.toString() });
-
     const dados = new URLSearchParams(corpoReq);
+    
     if(service.loginCheck(dados) == true){
         const htmlFinal = await service.gerarLogin();
 
