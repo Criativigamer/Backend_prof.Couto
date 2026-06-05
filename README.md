@@ -1,0 +1,11 @@
+Ctrl+Shft+Alt+F
+https://github.com/rafaballerini/GitTutorial
+https://git-scm.com/book/en/v2
+https://react-bootstrap.netlify.app/docs/getting-started/introduction/
+https://prof-joao.notion.site/Guia-TCC-2025-React-html-e-css-27aa3966a3f480728141fb584cb94229
+https://bootstrap21.org/pt/docs/5.0/getting-started/introduction/
+https://flexboxfroggy.com/
+https://www.canva.com/colors/color-wheel/
+https://coolors.co/
+https://www.lipsum.com/
+https://fonts.google.com/
